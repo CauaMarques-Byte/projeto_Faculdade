@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../CSS/Index.Css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Minha Loja</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Carrinho.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html" >Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../Imagens/Frete Gratis.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagens/produtos 2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagens/produtos 3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Seção de Boas-Vindas -->
+    <section id="home" class="py-5 text-center bg-light">
+        <div class="container">
+            <h1 class="display-4">Bem-vindo à Minha Loja</h1>
+            <p class="lead">Encontre os melhores produtos aqui!</p>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6 g-3">
+        <!-- Produto 1 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Acer.jpg" class="card-img-top" alt="Acer">
+                <div class="card-body">
+                    <h5 class="card-title">Produto Acer</h5>
+                    <p class="text-small">Notebook Acer Nitro V ANV15-51-52QB Intel</p>
+                    <p><b>R$4.499,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Asus.jpg" class="card-img-top" alt="Asus">
+                <div class="card-body">
+                    <h5 class="card-title">Produto Asus</h5>
+                    <p class="text-small">Notebook ASUS X515KA Intel Celeron Dual Core N4500</p>
+                    <p><b>R$1.779,95</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Dell.jpg" class="card-img-top" alt="Dell">
+                <div class="card-body">
+                    <h5 class="card-title">Produto Dell</h5>
+                    <p class="text-small">Notebook Dell 15.6 Fhd I7 16gb 512gb Ssd Rtx 3050</p>
+                    <p><b>R$6.479,99</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/positivo.jpg" class="card-img-top" alt="Positivo">
+                <div class="card-body">
+                    <h5 class="card-title">Produto Positivo</h5>
+                    <p class="text-small">Notebook Positivo Vision C15 Lumina Bar</p>
+                    <p><b>R$1.393,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Positivo1.jpg" class="card-img-top" alt="Positivo 1">
+                <div class="card-body">
+                    <h5 class="card-title">Produto Lenovo</h5>
+                    <p class="text-small">Notebook Lenovo Ideapad Intel Celeron - N4020</p>
+                    <p><b>R$1.877,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Vaio.jpg" class="card-img-top" alt="Vaio">
+                <div class="card-body">
+                    <h5 class="card-title">Produto Vaio</h5>
+                    <p class="text-small">Notebook Vaio Fe15, Amd® Ryzen 5</p>
+                    <p><b>R$2.349,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+<!-- Navbar de Benefícios -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Meli+</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBeneficios" aria-controls="navbarBeneficios" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarBeneficios">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#freteGratis">Frete Grátis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#parcelasSemJuros">Parcelas Sem Juros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cashback">Cashback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dinheiroRende">Dinheiro Rende</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Seção de Benefícios -->
+  <section class="loyalty-buylevel6__body py-5">
+    <div class="container">
+      <h3 class="loyalty-buylevel6__body-title text-center">Economize em frete, compras e pagamentos, e faça seu dinheiro render</h3>
+      <div class="loyalty-buylevel6__body-benefits d-flex justify-content-around">
+        
+        <div class="loyalty-buylevel6__body-benefit" id="freteGratis">
+          <div class="loyalty-buylevel6__body-benefit-logo">
+            <img decoding="async" src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/nivel-6/beneficio/free_shipping_2x.png" class="loyalty-buylevel6__body-benefit-logo-img" alt="">
+          </div>
+          <span class="loyalty-buylevel6__body-benefit-text">Frete grátis em milhões de produtos a partir de R$ 29</span>
+        </div>
+  
+        <div class="loyalty-buylevel6__body-benefit" id="parcelasSemJuros">
+          <div class="loyalty-buylevel6__body-benefit-logo">
+            <img decoding="async" src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/nivel-6/beneficio/interest_free_installments_discount_2x.png" class="loyalty-buylevel6__body-benefit-logo-img" alt="">
+          </div>
+          <span class="loyalty-buylevel6__body-benefit-text">Até 3 parcelas extras sem juros</span>
+        </div>
+  
+        <div class="loyalty-buylevel6__body-benefit" id="cashback">
+          <div class="loyalty-buylevel6__body-benefit-logo">
+            <img decoding="async" src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/nivel-6/beneficio/cashback-ml_2x.png" class="loyalty-buylevel6__body-benefit-logo-img" alt="">
+          </div>
+          <span class="loyalty-buylevel6__body-benefit-text">Cashback em compras e pagamentos</span>
+        </div>
+  
+        <div class="loyalty-buylevel6__body-benefit" id="dinheiroRende">
+          <div class="loyalty-buylevel6__body-benefit-logo">
+            <img decoding="async" src="https://http2.mlstatic.com/resources/frontend/statics/loyal/partners/nivel-6/beneficio/money_profit_2x.png" class="loyalty-buylevel6__body-benefit-logo-img" alt="">
+          </div>
+          <span class="loyalty-buylevel6__body-benefit-text">Seu dinheiro rende 105% do CDI no Mercado Pago</span>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+    <br>
+    <br>
+
+    <!-- Seção de ofertas -->
+     <p style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><b>Mais vendidos da semana Para a Cozinha
+
+     </b></p>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6 g-3">
+        <!-- Produto 1 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/arroz.jpg" class="card-img-top" alt="Acer">
+                <div class="card-body">
+                    <h5 class="card-title">Panela De Arroz</h5>
+                    <p class="text-small">Panela De Arroz Fast Rice 5 Premium Npe-08-5x</p>
+                    <p><b>R$169,32</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/balanca.jpg" class="card-img-top" alt="Asus">
+                <div class="card-body">
+                    <h5 class="card-title">Balnça</h5>
+                    <p class="text-small">Balança Digital De Precisão Cozinha 10kg Nutrição E Dieta</p>
+                    <p><b>R$15,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/liquidificador.jpg" class="card-img-top" alt="Dell">
+                <div class="card-body">
+                    <h5 class="card-title">Liquidificador</h5>
+                    <p class="text-small">Liquidificador PH900</p>
+                    <p><b>R$157,28</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/pipoqueira.jpg" class="card-img-top" alt="Positivo">
+                <div class="card-body">
+                    <h5 class="card-title">Pipoqueira</h5>
+                    <p class="text-small">Pipoqueira Popflix Pp-03 1200w Vermelha Mondial 110V</p>
+                    <p><b>R$146,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Torradeira.jpg" class="card-img-top" alt="Positivo 1">
+                <div class="card-body">
+                    <h5 class="card-title">Sanduicheira</h5>
+                    <p class="text-small">Grill Sanduicheira Cadence SAN400 Elétrica</p>
+                    <p><b>R$107,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/air fryer.jpg" class="card-img-top" alt="Vaio">
+                <div class="card-body">
+                    <h5 class="card-title">Air Fryer</h5>
+                    <p class="text-small">Fritadeira Sem Óleo</p>
+                    <p><b>R$250,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Seção de ofertas -->
+    <p style="text-align: center; font-family: Arial, Helvetica, sans-serif;"><b>Ofertas do dia</b></p>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6 g-3">
+        <!-- Produto 1 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/TV.jpg" class="card-img-top" alt="Acer">
+                <div class="card-body">
+                    <h5 class="card-title">Televisão 4k Smart Tv</h5>
+                    <p class="text-small">TCL Classic 4K Smart Tv 65P755 Google Tv Dolby Preto</p>
+                    <p><b>R$3.499,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 2 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Tenis.jpg" class="card-img-top" alt="Asus">
+                <div class="card-body">
+                    <h5 class="card-title">Galaxy 7 Adidas</h5>
+                    <p class="text-small">Tênis Corrida Galaxy 7 adidas</p>
+                    <p><b>R$200,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 3 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Celular.jpg" class="card-img-top" alt="Dell">
+                <div class="card-body">
+                    <h5 class="card-title">Moto Moto g34</h5>
+                    <p class="text-small">Smartphone Motorola Moto g34 5G</p>
+                    <p><b>R$979,99</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 4 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Lava Loucas.jpg" class="card-img-top" alt="Positivo">
+                <div class="card-body">
+                    <h5 class="card-title">Lava Louças</h5>
+                    <p class="text-small">Lava-louças 8 Serviços Blf08bs Prateada Brastemp</p>
+                    <p><b>R$1.894,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 5 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Lavajato.jpg" class="card-img-top" alt="Positivo 1">
+                <div class="card-body">
+                    <h5 class="card-title">Lava Jato</h5>
+                    <p class="text-small">Lavadora De Alta Pressão Kärcher Compacta 1500psi</p>
+                    <p><b>R$348,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Produto 6 -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="../Imagens/Som.jpg" class="card-img-top" alt="Vaio">
+                <div class="card-body">
+                    <h5 class="card-title">Caixa de Som</h5>
+                    <p class="text-small">Caixa Amplificada Connect Power Plus CM-550</p>
+                    <p><b>R$499,00</b></p>
+                    <a href="Carrinho.html"><button type="button" class="btn btn-primary btn-sm">
+                        <i class="fa-solid fa-cart-shopping me-2"></i>Comprar agora</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; @2024 Minha Loja. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
